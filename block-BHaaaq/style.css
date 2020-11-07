@@ -1,0 +1,78 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.box{
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: rgb(178,46,37);
+    margin: 20px;
+}
+h2{
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin: 20px;
+    
+}
+.content{
+
+    margin: 10px;
+    width: 25%;
+    border-top: solid 40px rgb(129,46,128);
+    border-bottom: solid 40px rgb(129,46,128);
+    border-left: solid 20px rgb(129,46,128);
+    border-right: solid 20px rgb(129,46,128);
+
+}
+.inside{
+    border-right: 20px inset rgb(128,128,128);
+    border-top:20px outset rgb(36,74,251) ;
+    border-left: 20px outset rgb(65,129,7);
+    border-bottom: 20px inset rgb(253,247,49);
+}
+p{
+    background-color: rgb(233,63,51);
+    color: white;
+    padding: 30px;
+}
