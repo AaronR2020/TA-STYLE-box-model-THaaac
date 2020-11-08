@@ -1,0 +1,58 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1  >The Box Model, Box-sizing & Box-shadow</h1>
+  <h3 class="push" >Exercise1</h3><br><br>
+  <div class="colorBox">
+      <div class="content"></div>
+  </div>
+<div class="push">
+    <div class="colour" id="green"></div>Content <div class="colour" id="blue"></div> padding <div class="colour" id="purple"></div> border <div class="colour" id="pink"></div> Margin 
+</div><br><br>
+<!--assignment 1-->
+
+   <h3 class="push">Exercide2</h3>
+   <p >no border on these boxes</p><br><br>
+   <div class="borderSingle">
+    <div class="noBorder"></div>
+    <div class="noBorder"></div>
+    <div class="noBorder"></div>
+</div><br>
+<p >1px border on these boxes</p><br><br>
+<div class="bordertwo">
+    <div class="borderInner"></div>
+    <div class="borderInner"></div><br>
+    <div class="borderInner"></div>
+</div><br>
+<p >1px border on these boxes but they are in same line</p><br><br>
+<div class="borderSingle">
+    <div class="borderInner"></div>
+    <div class="borderInner"></div>
+    <div class="borderInner"></div>
+</div><br>
+
+
+</body>
+</html>
