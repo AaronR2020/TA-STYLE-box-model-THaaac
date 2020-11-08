@@ -45,12 +45,13 @@ table {
 }
 .box{
     width: 20%;
-    height: 100px;
+    height: 120px;
     padding: 20px;
     border: 1px solid black;
     margin: 5px;
     outline: groove;
     box-shadow: 20px 20px 8px rgb(69, 88, 69);
+    box-sizing: border-box;
 }
 body{
     margin: 20px;
