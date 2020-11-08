@@ -64,10 +64,7 @@ h3{
 #pink{
     background-color:rgb(236,127,128);
 }
-body{
-    margin-left:10% ;
-    margin-right: 10%;
-}
+
 hr{
     
     padding: 0px;
@@ -103,10 +100,40 @@ hr{
     margin-left: 25%;
     margin-bottom: 0px;
 }
-p{
+body{
+    margin: 10px;
+}
+p{  text-decoration: black;
+    font-weight: bold;
     margin-top: 5px;
     margin-left: 18%;
 }
 /*...end of assignemtn 1...*/
 
+.borderSingle{
+    box-sizing:border-box;
+    width: 616px;
+    border: 1px solid black;
+}
+.noBorder{
+    display: inline-block;
+    background-color:rgb(204,204,204) ;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+   border: none;
 
+}
+.bordertwo{
+    box-sizing:border-box;
+    width: 600px;
+    border: 1px solid black; 
+}
+.borderInner{  
+    display: inline-block;
+    background-color:rgb(204,204,204) ;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+   border: 1px solid black;
+ }
